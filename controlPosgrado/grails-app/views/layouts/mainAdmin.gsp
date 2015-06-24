@@ -39,11 +39,11 @@
 			  <li><a href="#">Configuración</a></li>
 			  <li><a href="/controlPosgrado/logout">Salir</a></li>
 			</ul>
-         
+
         </div>
       </div>
     </nav>
-    
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
@@ -51,13 +51,13 @@
             <li><g:link controller ="perfil"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Alumnos </g:link></li>
             <li><g:link controller ="perfilProfesor"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Profesores </g:link></li>
             <li><g:link controller ="#"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Informes</g:link></li>
-            <li><g:link controller ="#"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Reportes</g:link></li>
-            
+            <li><g:link controller ="publicaciones"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Avances de publicación</g:link></li>
+
           </ul>
         </div>
 <%--		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>--%>
 		<g:layoutBody/>
-		
+
 		</div>
 	</div>
 <%--		<div class="footer" role="contentinfo"></div>--%>
@@ -66,11 +66,11 @@
 		<div class="col-sm-7 col-md-8">
 			<footer class="blog-footer">
       		<div class="container">
-      			Esto es el footer 
+      			Esto es el footer
 	  		</div>
     	</footer>
 	</div>
 </div>
-	
+
 </body>
 </html>

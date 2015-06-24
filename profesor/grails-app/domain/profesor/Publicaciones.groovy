@@ -19,10 +19,10 @@ class Publicaciones {
     String  issn
     String  isbn
     static constraints = {
-      agno matches: "[0-9]"
-      numero matches: "[0-9]"
-      autor matches: "[a-zA-Z]"
-      paginas matches: "[0-9]"
+      agno matches: "[0-9 ]+"
+      numero matches: "[0-9 ]+"
+      paginas matches: "[0-9 ]+"
+      agnoPublicacion matches: "[0-9]+"
 
     }
 }
