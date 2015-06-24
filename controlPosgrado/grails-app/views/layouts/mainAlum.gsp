@@ -58,7 +58,7 @@
             <span class="icon-bar"></span>
           </button>
 <%--          <a class="home" href="${createLink(uri: '/')}">--%>
-          <a class="navbar-brand" href="${createLink(uri: '/')}"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> <b> Ventanilla</b> </a>
+          <a class="navbar-brand" href="${createLink(uri: '/')}"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> <b> Usuario: Alumno</b> </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 	        <ul class="nav navbar-nav" id="contenedorNavbarPrincipal">
@@ -66,7 +66,7 @@
 	        </ul>
 			<ul class="nav navbar-nav navbar-right">
 			 
-			  <li><a href="/controlCitas/logout">Salir</a></li>
+			  <li><a href="/controlPosgrado/logout">Salir</a></li>
 			</ul>
          
         </div>
@@ -78,8 +78,8 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
 
-            <li><g:link controller ="cita" action="create"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citas</g:link></li>
-            <li><g:link controller ="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Busqueda</g:link></li>
+           <!-- <li><g:link controller ="cita" action="create"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citas</g:link></li>
+            <li><g:link controller ="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Busqueda</g:link></li>--!>
             
           </ul>
         </div>

@@ -18,7 +18,7 @@ class ControlarController {
 				return
 			} else {
 				//renderizar la pagina principal del usuario
-				render (view: "alumno")
+				render (view: "usuario")
 				return
 			}
 		}

@@ -37,7 +37,7 @@
 	        </ul>
 			<ul class="nav navbar-nav navbar-right">
 			  <li><a href="#">Configuración</a></li>
-			  <li><a href="/controlCitas/logout">Salir</a></li>
+			  <li><a href="/controlPosgrado/logout">Salir</a></li>
 			</ul>
          
         </div>
@@ -48,8 +48,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li><g:link controller ="usuario"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuarios</g:link></li>
-            <li><g:link controller ="doctor"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Doctores</g:link></li>
+            <li><g:link controller ="perfil"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Alumnos </g:link></li>
             
           </ul>
         </div>
