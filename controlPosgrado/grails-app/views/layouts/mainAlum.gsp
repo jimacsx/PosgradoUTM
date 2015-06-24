@@ -7,7 +7,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="Ventanilla"/></title>
+		<title><g:layoutTitle default="Usuario del Sistema"/></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="${assetPath(src: 'favicon.ico')}" type="image/x-icon">
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
@@ -78,8 +78,9 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
 
-           <!-- <li><g:link controller ="cita" action="create"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citas</g:link></li>
-            <li><g:link controller ="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Busqueda</g:link></li>--!>
+           <li><g:link controller ="#"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Calificaciones</g:link></li>
+           <li><g:link controller ="#"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Cursos</g:link></li>
+            <!--<li><g:link controller ="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Busqueda</g:link></li>--!>
             
           </ul>
         </div>
