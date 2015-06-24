@@ -11,39 +11,30 @@
 
 </div>
 
-<div class="form-group ${hasErrors(bean: perfilInstance, field: 'email', 'error')} required">
-	<label class="col-sm-2 control-label" for="email">
-		<g:message code="perfil.email.label" default="Email" />
+<div class="form-group ${hasErrors(bean: perfilInstance, field: 'nombre', 'error')} required">
+	<label class="col-sm-2 control-label" for="nombre">
+		<g:message code="perfil.nombre.label" default="Nombre" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:field class="col-sm-2 control-label"type="email" name="email" required="" value="${perfilInstance?.email}"/>
-
-</div>
-
-<div class="form-group ${hasErrors(bean: perfilInstance, field: 'pass', 'error')} required">
-	<label class="col-sm-2 control-label" for="pass">
-		<g:message code="perfil.pass.label" default="Pass" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField class="col-sm-2 control-label"name="pass" required="" value="${perfilInstance?.pass}"/>
-
-</div>
-
-<div class="form-group ${hasErrors(bean: perfilInstance, field: 'apellidoM', 'error')} required">
-	<label class="col-sm-2 control-label" for="apellidoM">
-		<g:message code="perfil.apellidoM.label" default="Apellido M" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField class="col-sm-2 control-label" name="apellidoM" required="" value="${perfilInstance?.apellidoM}"/>
+	<g:textField class="col-sm-2 control-label" name="nombre" required="" value="${perfilInstance?.nombre}"/>
 
 </div>
 
 <div class="form-group ${hasErrors(bean: perfilInstance, field: 'apellidoP', 'error')} required">
 	<label class="col-sm-2 control-label" for="apellidoP">
-		<g:message code="perfil.apellidoP.label" default="Apellido P" />
+		<g:message code="perfil.apellidoP.label" default="Apellido Paterno" />
 		<span class="required-indicator">*</span>
 	</label>
 	<g:textField class="col-sm-2 control-label" name="apellidoP" required="" value="${perfilInstance?.apellidoP}"/>
+
+</div>
+
+<div class="form-group ${hasErrors(bean: perfilInstance, field: 'apellidoM', 'error')} required">
+	<label class="col-sm-2 control-label" for="apellidoM">
+		<g:message code="perfil.apellidoM.label" default="Apellido Materno" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField class="col-sm-2 control-label" name="apellidoM" required="" value="${perfilInstance?.apellidoM}"/>
 
 </div>
 
@@ -65,6 +56,7 @@
 
 </div>
 
+
 <div class="form-group ${hasErrors(bean: perfilInstance, field: 'lugarNacimiento', 'error')} required">
 	<label class="col-sm-2 control-label" for="lugarNacimiento">
 		<g:message code="perfil.lugarNacimiento.label" default="Lugar Nacimiento" />
@@ -74,14 +66,7 @@
 
 </div>
 
-<div class="form-group ${hasErrors(bean: perfilInstance, field: 'nombre', 'error')} required">
-	<label class="col-sm-2 control-label" for="nombre">
-		<g:message code="perfil.nombre.label" default="Nombre" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField class="col-sm-2 control-label" name="nombre" required="" value="${perfilInstance?.nombre}"/>
 
-</div>
 
 <div class="form-group ${hasErrors(bean: perfilInstance, field: 'telefono', 'error')} required">
 	<label class="col-sm-2 control-label" for="telefono">
@@ -98,5 +83,23 @@
 		<span class="required-indicator">*</span>
 	</label>
 	<g:textField class="col-sm-2 control-label" name="universidadAnterior" required="" value="${perfilInstance?.universidadAnterior}"/>
+
+</div>
+
+<div class="form-group ${hasErrors(bean: perfilInstance, field: 'email', 'error')} required">
+	<label class="col-sm-2 control-label" for="email">
+		<g:message code="perfil.email.label" default="Email" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:field class="col-sm-2 control-label"type="email" name="email" required="" value="${perfilInstance?.email}"/>
+
+</div>
+
+<div class="form-group ${hasErrors(bean: perfilInstance, field: 'pass', 'error')} required">
+	<label class="col-sm-2 control-label" for="pass">
+		<g:message code="perfil.pass.label" default="Pass" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:passwordField class="col-sm-2 control-label"name="pass" required="" value="${perfilInstance?.pass}"/>
 
 </div>

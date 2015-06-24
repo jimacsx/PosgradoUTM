@@ -44,7 +44,7 @@
 
 				<g:if test="${perfilInstance?.pass}">
 				<li class="fieldcontain">
-					<span id="pass-label" class="property-label"><g:message code="perfil.pass.label" default="Pass" /></span>
+					<span id="pass-label" class="property-label"><g:message code="perfil.pass.label" default="Password" /></span>
 
 						<span class="property-value" aria-labelledby="pass-label"><g:fieldValue bean="${perfilInstance}" field="pass"/></span>
 
@@ -53,7 +53,7 @@
 
 				<g:if test="${perfilInstance?.apellidoM}">
 				<li class="fieldcontain">
-					<span id="apellidoM-label" class="property-label"><g:message code="perfil.apellidoM.label" default="Apellido M" /></span>
+					<span id="apellidoM-label" class="property-label"><g:message code="perfil.apellidoM.label" default="Apellido Materno" /></span>
 
 						<span class="property-value" aria-labelledby="apellidoM-label"><g:fieldValue bean="${perfilInstance}" field="apellidoM"/></span>
 
@@ -62,7 +62,7 @@
 
 				<g:if test="${perfilInstance?.apellidoP}">
 				<li class="fieldcontain">
-					<span id="apellidoP-label" class="property-label"><g:message code="perfil.apellidoP.label" default="Apellido P" /></span>
+					<span id="apellidoP-label" class="property-label"><g:message code="perfil.apellidoP.label" default="Apellido Paterno" /></span>
 
 						<span class="property-value" aria-labelledby="apellidoP-label"><g:fieldValue bean="${perfilInstance}" field="apellidoP"/></span>
 
