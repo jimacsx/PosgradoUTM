@@ -7,7 +7,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="Citas Medicas"/></title>
+		<title><g:layoutTitle default="Área Administrativa"/></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="${assetPath(src: 'favicon.ico')}" type="image/x-icon">
 		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
@@ -49,6 +49,9 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li><g:link controller ="perfil"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Alumnos </g:link></li>
+            <li><g:link controller ="perfilProfesor"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Profesores </g:link></li>
+            <li><g:link controller ="#"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Informes</g:link></li>
+            <li><g:link controller ="#"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Reportes</g:link></li>
             
           </ul>
         </div>
